@@ -1,0 +1,50 @@
+.header{
+	min-height: 180px;
+	background-color: red;
+	border:5px dotted black
+}
+.container{
+	overflow: hidden;
+	border:5px solid black
+}
+.blog{
+	float: left;
+	width: 70%;
+	background: blue;
+	min-height: 500px;
+}
+.contact{
+	float: right;
+	width: 30%;
+	background: green;
+	min-height: 500px;
+}
+.footer{
+
+	min-height: 180px;
+	background-color: yellow;
+	border:5px dotted black;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+a:active {
+  color: violet;
+  text-decoration: underline;
+}
